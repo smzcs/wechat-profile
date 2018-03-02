@@ -14,7 +14,7 @@ Page({
     intro: [
       '6年多外企软件开发工程师工作经验，口语流利，可无障碍自带翻墙梯查询英文技术文档。',
       '熟悉HTML5，CSS3，Javascript(及ES6版本)，jQuery框架，了解React框架；熟悉Boostrap 3框架，能够独立制作完成常规CSS3动画及特效，会设计及开发响应式页面(手机、平板电脑及普通PC机均适用)，会使用Sass预编译样式，能解决常见浏览器兼容样式问题；熟悉Webpack等打包工具的常规配置，熟练使用Nodejs的NPM包管理器及Express框架，ejs及Jade模板引擎；有防XSS攻击的经验。',
-      '曾开发基于Asp.net的B/S模式的系统，具有丰富的Winform经验并熟悉使用Asp.net MVC框架；能开发RESTful风格的webApi；熟悉SQL Server2008及2012版本数据库，能写SQL语句、存储过程及触发器，有防SQL注入攻击的经验，会Mongodb的常规增删改查操作，并能在Nodejs环境下使用Mongoose等ORM框架。',
+      '曾开发基于Asp.net的B/S模式的系统，熟练掌握C#语言，熟练使用Asp.net MVC框架；能开发RESTful风格的webApi；熟悉SQL Server2008及2012版本数据库，能写SQL语句、存储过程及触发器，有防SQL注入攻击的经验，会Mongodb的常规增删改查操作，并能在Nodejs环境下使用Mongoose等ORM框架。',
       '熟悉代码版本控制，先后使用过Microsoft的TFS，SVN，Perforce，Git及IBM的Clearcase等代码管理工具；先后使用过SharePoint及Sitecore等CMS系统；有使用Adobe InDesign的经验。',
       '熟悉瀑布流及敏捷开发模式。',
       '熟悉文档编写及交付流程，能较好的参与需求确认、开发、SIT、UAT及最终交付的各个阶段。',
