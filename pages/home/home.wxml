@@ -1,0 +1,11 @@
+<view class="container">
+  <text>欢迎{{userInfo.nickName ? ", " : ""}}{{userInfo.nickName}}</text>
+</view>
+<view class="container intro">
+  <view>
+    <text>这是我的微信小程序，</text>
+  </view>
+  <view>
+    <text>主要记录学习及工作经历。</text>
+  </view>
+</view>

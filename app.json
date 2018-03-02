@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/exprience/exprience"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Courthasl",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#339933",
+    "backgroundColor": "#eee",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "个人信息",
+        "iconPath": "image/home-inactive.png",
+        "selectedIconPath": "image/home-active.png"
+      },
+      {
+        "pagePath": "pages/exprience/exprience",
+        "text": "工作经历",
+        "iconPath": "image/ex-inactive.png",
+        "selectedIconPath": "image/ex-active.png"
+      }
+    ]
+  }
+}
