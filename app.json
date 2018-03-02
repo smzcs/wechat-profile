@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/home/home",
-    "pages/exprience/exprience"
+    "pages/experience/experience",
+    "pages/project-experience/project-experience"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -17,14 +18,21 @@
       {
         "pagePath": "pages/home/home",
         "text": "个人信息",
-        "iconPath": "image/home-inactive.png",
-        "selectedIconPath": "image/home-active.png"
+        "iconPath": "image/profile-inactive.png",
+        "selectedIconPath": "image/profile-active.png"
       },
       {
-        "pagePath": "pages/exprience/exprience",
+        "pagePath": "pages/experience/experience",
         "text": "工作经历",
         "iconPath": "image/ex-inactive.png",
         "selectedIconPath": "image/ex-active.png"
+      }
+      ,
+      {
+        "pagePath": "pages/project-experience/project-experience",
+        "text": "项目经验",
+        "iconPath": "image/project-ex-inactive.png",
+        "selectedIconPath": "image/project-ex-active.png"
       }
     ]
   }

@@ -1,3 +1,6 @@
+text{
+  color: #333;
+}
 view{
   box-sizing: border-box;
 }

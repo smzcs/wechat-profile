@@ -1,3 +1,3 @@
 # wechat-profile
 
-Wechat app by Courthasl
+Wechat app created by Courthasl

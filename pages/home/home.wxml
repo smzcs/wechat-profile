@@ -1,11 +1,34 @@
 <view class="container">
   <text>欢迎{{userInfo.nickName ? ", " : ""}}{{userInfo.nickName}}</text>
 </view>
-<view class="container intro">
-  <view>
-    <text>这是我的微信小程序，</text>
+<view class="container profile">
+  <view class="basic">
+    <view>
+      <text>姓名：赵春森</text>
+    </view>
+    <view>
+      <text>性别：男</text>
+    </view>
+  </view>
+  <view class="basic">
+    <view>
+      <text>年龄：31岁</text>
+    </view>
+    <view>
+      <text>坐标：成都</text>
+    </view>
   </view>
   <view>
-    <text>主要记录学习及工作经历。</text>
+    <text>意向：高级前端工程师</text>
+  </view>
+  <view class="intro">
+    <view class="intro-item" wx:for="{{intro}}"  wx:key="{{index}}">
+      <view class="intro-mark">
+        <text>●</text>
+      </view>
+      <view class='intro-detail'>
+        <text>{{item}}</text>
+      </view>
+    </view>
   </view>
 </view>
