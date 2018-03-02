@@ -1,34 +1,34 @@
-<view class="gap first-gap">
-  <view class="gap-thread"></view>
+<view class='gap first-gap'>
+  <view class='gap-thread'></view>
 </view>
-<view class="container">
-  <view class="side left-side">
-    <view class="ex-item ex-item-left" wx:for="{{leftData}}" wx:key="year">
-      <view class="ex-content">
-        <view class="ex-text">
+<view class='container'>
+  <view class='side left-side'>
+    <view class='ex-item ex-item-left' wx:for='{{leftData}}' wx:key='year'>
+      <view class='ex-content'>
+        <view class='ex-text'>
           <text>{{item.text}}</text>
         </view>
-        <view class="ex-year-place">
+        <view class='ex-year-place'>
           <text>{{item.year}} - {{item.place}}</text>
         </view>
       </view>
-      <view class="ex-thread ex-thread-left"></view>
+      <view class='ex-thread ex-thread-left'></view>
     </view>
   </view>
-  <view class="side right-side">
-    <view class="ex-item" wx:for="{{rightData}}" wx:key="year">
-      <view class="ex-thread ex-thread-right"></view>
-      <view class="ex-content">
-        <view class="ex-text">
+  <view class='side right-side'>
+    <view class='ex-item' wx:for='{{rightData}}' wx:key='year'>
+      <view class='ex-thread ex-thread-right'></view>
+      <view class='ex-content'>
+        <view class='ex-text'>
           <text>{{item.text}}</text>
         </view>
-        <view class="ex-year-place">
+        <view class='ex-year-place'>
           <text>{{item.place}} - {{item.year}}</text>
         </view>
       </view>
     </view>
   </view>
 </view>
-<view class="gap">
-  <view class="gap-thread"></view>
+<view class='gap'>
+  <view class='gap-thread'></view>
 </view>

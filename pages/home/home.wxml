@@ -1,8 +1,8 @@
-<view class="container">
-  <text>欢迎{{userInfo.nickName ? ", " : ""}}{{userInfo.nickName}}</text>
+<view class='container'>
+  <text>欢迎{{userInfo.nickName ? ', ' : ' :)'}}{{userInfo.nickName}}</text>
 </view>
-<view class="container profile">
-  <view class="basic">
+<view class='container profile'>
+  <view class='basic'>
     <view>
       <text>姓名：赵春森</text>
     </view>
@@ -10,7 +10,7 @@
       <text>性别：男</text>
     </view>
   </view>
-  <view class="basic">
+  <view class='basic'>
     <view>
       <text>年龄：31岁</text>
     </view>
@@ -21,9 +21,9 @@
   <view>
     <text>意向：高级前端工程师</text>
   </view>
-  <view class="intro">
-    <view class="intro-item" wx:for="{{intro}}"  wx:key="{{index}}">
-      <view class="intro-mark">
+  <view class='intro'>
+    <view class='intro-item' wx:for='{{intro}}'  wx:key='{{index}}'>
+      <view class='intro-mark'>
         <text>●</text>
       </view>
       <view class='intro-detail'>

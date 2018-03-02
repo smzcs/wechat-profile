@@ -10,4 +10,5 @@ view{
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  margin: 0 30rpx;
 } 

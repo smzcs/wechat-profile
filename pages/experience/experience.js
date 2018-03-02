@@ -28,6 +28,11 @@ const experience = [
     year: 2017,
     text: '加入Bleum',
     place: '成都'
+  },
+  {
+    year: 2018,
+    text: '...',
+    place: '成都'
   }
 ]
 Page({

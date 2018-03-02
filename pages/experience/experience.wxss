@@ -34,6 +34,9 @@
   margin-top: 60px;
 }
 .left-side .ex-item:last-child{
+  margin-bottom: 20px;
+}
+.right-side .ex-item:last-child{
   margin-bottom: 60px;
 }
 .ex-item-left{
