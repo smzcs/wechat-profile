@@ -2,27 +2,16 @@
   <text>欢迎{{userInfo.nickName ? ', ' : ' :)'}}{{userInfo.nickName}}</text>
 </view>
 <view class='container profile'>
-  <view class='basic'>
-    <view>
-      <text>姓名：赵春森</text>
-    </view>
-    <view>
-      <text>性别：男</text>
+  <view class='basic' wx:for='{{infos}}' wx:key='{{index}}'>
+    <view wx:for='{{item.info}}' wx:key='{{index}}' wx:for-item='detail'>
+      <text>{{detail.k}}：{{detail.v}}</text>
     </view>
   </view>
-  <view class='basic'>
-    <view>
-      <text>年龄：31岁</text>
-    </view>
-    <view>
-      <text>坐标：成都</text>
-    </view>
-  </view>
-  <view>
-    <text>意向：高级前端工程师</text>
+  <view wx:for='{{contact}}' wx:key='{{index}}'>
+    <text>{{item.k}}：{{item.v}}</text>
   </view>
   <view class='intro'>
-    <view class='intro-item' wx:for='{{intro}}'  wx:key='{{index}}'>
+    <view class='intro-item' wx:for='{{intro}}' wx:key='{{index}}'>
       <view class='intro-mark'>
         <text>●</text>
       </view>
