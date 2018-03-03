@@ -53,3 +53,20 @@
 .ex-thread-right{
   margin-right: 3px;
 }
+.arrow-holder {
+  position: relative;
+  margin-top: -10rpx;
+}
+.arrow {
+  width: 40rpx;
+  height: 40rpx;
+  border-bottom: 5rpx solid #333;
+  border-right: 5rpx solid #333;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}

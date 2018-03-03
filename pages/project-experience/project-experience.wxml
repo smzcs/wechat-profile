@@ -8,6 +8,7 @@
         <view>
           <text class='bold'>项目名称：</text>
           <text>{{item.name}}</text>
+          <text>({{item.duration}}年)</text>
         </view>
         <view>
           <text class='bold'>项目描述：</text>

@@ -29,6 +29,6 @@
     </view>
   </view>
 </view>
-<view class='gap'>
-  <view class='gap-thread'></view>
+<view class='arrow-holder'>
+  <view class='arrow'></view>
 </view>
