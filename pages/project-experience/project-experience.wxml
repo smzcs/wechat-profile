@@ -1,1 +1,23 @@
-<view class='container'></view>
+<view class='container'>
+  <view class='intro'>
+    <view class='intro-item' wx:for='{{ex}}' wx:key='{{index}}'>
+      <view class='intro-mark'>
+        <text>●</text>
+      </view>
+      <view class='intro-detail'>
+        <view>
+          <text class='bold'>项目名称：</text>
+          <text>{{item.name}}</text>
+        </view>
+        <view>
+          <text class='bold'>项目描述：</text>
+          <text>{{item.projectIntro}}</text>
+        </view>
+        <view>
+          <text class='bold'>责任描述：</text>
+          <text>{{item.responsibility}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
